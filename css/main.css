@@ -5,3 +5,33 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+nav {
+  background-color: #9CAF88;
+  padding: 1.25em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0.5em;
+  font-family: 'Poppins', sans-serif;
+  list-style-type: none;
+  font-size: 1.25em;
+}
+
+
+
+
+
+
+
+
+
+
+.hero.banner
