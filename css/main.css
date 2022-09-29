@@ -40,7 +40,7 @@ nav ul li a:hover {
   width: 100%;
   height: 80vh;
   background-color: white;
-  background-image: url('https://media.discordapp.net/attachments/985650781770350652/1024741400161554463/unknown.png');
+  background-image: url('https://cdn.discordapp.com/attachments/911315440431669268/1025099680616562699/unknown.png');
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -48,7 +48,9 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-.intro {
-  padding: 1em;
+
+footer {
+  background-color: #9CAF88;
+  color: white;
   text-align: center;
 }
