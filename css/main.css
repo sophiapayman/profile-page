@@ -44,12 +44,17 @@ nav ul li a:hover {
   width: 100%;
   height: 80vh;
   background-color: white;
-  background-image: url('https://cdn.discordapp.com/attachments/911315440431669268/1025099680616562699/unknown.png');
+  background-image: url('https://cdn.discordapp.com/attachments/938157546936631397/1025406661793427456/unknown.png');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover; 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h1 {
+  color: white;
 }
 
 section {
@@ -73,11 +78,6 @@ section {
   border-radius: 6px;
 }
 
-.images {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 1.5em;
-}
 
 .grid {
   display: grid;
@@ -86,7 +86,7 @@ section {
 }
 
 .grid > img {
-  height: 100%;
+  height: 50%;
 }
 
 
