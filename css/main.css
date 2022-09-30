@@ -47,7 +47,7 @@ nav ul li a:hover {
   background-image: url('https://cdn.discordapp.com/attachments/938157546936631397/1025406661793427456/unknown.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,6 +55,15 @@ nav ul li a:hover {
 
 h1 {
   color: white;
+  font-family: 'Kepler Std', serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Kepler Std', serif;
 }
 
 section {
@@ -78,6 +87,20 @@ section {
   border-radius: 6px;
 }
 
+.work {
+  padding: 1.25em;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.images {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #f8c7a7;
+  padding: 0 1.5em;
+  border-radius: 6px;
+}
 
 .grid {
   display: grid;
@@ -86,7 +109,8 @@ section {
 }
 
 .grid > img {
-  height: 50%;
+  height: 100%;
+  width: 100%;
 }
 
 
