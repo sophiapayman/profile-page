@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   background-color: #9CAF88;
   padding: 1.25em;
@@ -48,9 +52,23 @@ nav ul li a:hover {
   justify-content: center;
 }
 
+section {
+  padding: 3em 0;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  gap: 3%
+}
 
 footer {
   background-color: #9CAF88;
   color: white;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
